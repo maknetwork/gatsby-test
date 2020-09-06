@@ -17,6 +17,8 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
+
+        <li>
         <Link
           to="/"
           style={{
@@ -25,7 +27,27 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-        </Link>
+        </Link></li>
+        <li>
+        <Link
+          to="/contact"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          {siteTitle}
+        </Link></li>
+        <li>
+        <Link
+          to="/about"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}
+        >
+          {siteTitle}
+        </Link></li>
       </h1>
     </div>
   </header>
